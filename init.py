@@ -12,4 +12,4 @@ with open(f"{teaser_number}/guess.md", "w") as f:
     f.write(env.get_template("guess.md").render())
 
 with open(f"{teaser_number}/results.md", "w") as f:
-    f.write(env.get_template("guess.md").render())
+    f.write(env.get_template("results.md").render())
